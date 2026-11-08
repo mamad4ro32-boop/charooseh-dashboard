@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="آخرین نتایج فوتبال و قیمت تتر، بیت‌کوین و طلا؛ گردآوری محمدعلی چاروسه">
+<title>نتایج فوتبال و بازار | محمدعلی چاروسه</title>
+<style>
+:root{color-scheme:dark;--bg:#0b1221;--card:#151f32;--line:#2a3952;--muted:#b3c1d6;--gold:#f8d07b;--green:#73e2be}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:#edf3ff;font:15px/1.9 Tahoma,Arial,sans-serif}main{max-width:1120px;margin:auto;padding:28px 18px}header{padding:22px 0}h1{font-size:clamp(23px,4vw,35px);margin:8px 0}h2{font-size:21px}p{margin:8px 0}.muted,small{color:var(--muted)}.badge{color:var(--green);border:1px solid #316759;padding:5px 12px;border-radius:30px;display:inline-block}.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:24px 0}.card,.panel{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px}.value{font-size:27px;color:var(--gold);margin:14px 0;direction:ltr;text-align:right;font-weight:bold}.time{font-size:12px;color:var(--muted);margin-top:9px}.warning{color:#ffcf91;font-size:13px}.toolbar{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}input,select,button{font:inherit;color:inherit;background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:8px 12px}input{flex:1;min-width:160px}button{cursor:pointer}button:hover{border-color:var(--green)}.table-wrap{overflow:auto;max-height:640px}table{border-collapse:collapse;width:100%;min-width:640px}th,td{padding:13px 10px;border-bottom:1px solid var(--line);text-align:right}th{color:var(--muted);background:var(--card);position:sticky;top:0}.score{white-space:nowrap;direction:ltr;text-align:center;font-weight:bold;color:var(--green)}a{color:#99c7ff}footer{text-align:center;border-top:1px solid var(--line);margin-top:30px;padding:24px 5px}.credit{color:var(--gold)}.note{font-size:13px;color:var(--muted)}#load-error{color:#ffcf91} [hidden]{display:none!important}@media(max-width:900px){.cards{grid-template-columns:repeat(2,1fr)}}@media(max-width:460px){.cards{grid-template-columns:1fr}.panel{padding:12px}main{padding:18px 12px}}
+</style>
+</head>
+<body><main>
+<header><span class="badge">به‌روزرسانی برنامه‌ریزی‌شده هر ۸ ساعت</span><h1>آخرین نتایج فوتبال و قیمت بازار</h1><p class="muted">ایران و جهان • تتر، بیت‌کوین و طلا</p><p class="note">اطلاعات لحظه‌ای نیست. زمان دریافت هر بخش جداگانه درج شده است؛ اجرای گیت‌هاب ممکن است تأخیر داشته باشد.</p><p id="attempt" class="time"></p><p id="load-error" role="alert"></p></header>
+<section id="prices" class="cards" aria-label="قیمت بازار"></section>
+<p class="note">تتر: آخرین معامله در بازار نوبیتکس، نه نرخ واحد کل بازار. طلای ۱۸ عیار: نرخ هر گرم بازار ایران از TGJU، با تبدیل ریال به تومان؛ قیمت نهایی مصنوعات با اجرت و مالیات متفاوت است. داده‌ها توصیهٔ سرمایه‌گذاری نیستند.</p>
+<section class="panel" style="margin-top:24px"><h2>⚽ نتایج و برنامهٔ فوتبال</h2><p class="note">مسابقات امروز و دیروز به وقت تهران، در محدودهٔ پوشش و دسترسی رایگان API-Football. پوشش همهٔ جهان یا لیگ ایران تضمین نمی‌شود.</p><p id="football-time" class="time"></p><p id="football-warning" class="warning"></p>
+<div class="toolbar"><input id="search" type="search" placeholder="جست‌وجوی تیم یا لیگ (نام‌ها ممکن است انگلیسی باشند)" aria-label="جست‌وجوی مسابقات"><select id="country" aria-label="کشور"><option value="all">تمام کشورها</option><option value="Iran">فقط ایران</option></select><button id="reload" type="button">بازخوانی اطلاعات ذخیره‌شده</button></div>
+<p id="count" class="note"></p><div class="table-wrap"><table><thead><tr><th>رقابت / کشور</th><th>میزبان</th><th>نتیجه</th><th>مهمان</th><th>وضعیت / زمان تهران</th></tr></thead><tbody id="matches"></tbody></table></div><p id="empty" class="muted"></p>
+</section>
+<footer><p class="credit">گردآورنده نتایج از منابع توسط [محمدعلی چاروسه | <bdi>Mohammad Ali Charooseh</bdi>]</p><p class="note">منابع: <a href="https://nobitex.ir/" target="_blank" rel="noopener noreferrer">نوبیتکس</a> · <a href="https://gold-api.com/" target="_blank" rel="noopener noreferrer">Gold API</a> · <a href="https://www.api-football.com/" target="_blank" rel="noopener noreferrer">API-Football</a></p><p class="note">حقوق داده‌ها متعلق به منابع اصلی است. درج نام گردآورنده به معنی تولید یا تأیید داده‌ها توسط او نیست.</p></footer>
+</main>
+<script>
+'use strict';
+let current = {};
+const $ = id => document.getElementById(id);
+const fmt = new Intl.NumberFormat('fa-IR',{maximumFractionDigits:2});
+function time(value){if(!value)return 'هنوز دریافت نشده';const d=new Date(value);return Number.isNaN(d.getTime())?'نامشخص':new Intl.DateTimeFormat('fa-IR',{timeZone:'Asia/Tehran',dateStyle:'short',timeStyle:'short'}).format(d);}
+function old(section){return section.fetchedAt && Date.now()-new Date(section.fetchedAt).getTime()>9*3600000;}
+function el(tag,text,cls){const node=document.createElement(tag);if(text!==undefined)node.textContent=text;if(cls)node.className=cls;return node;}
+function render(){
+ $('attempt').textContent='آخرین تلاش برای دریافت: '+time(current.lastAttempt)+' (تهران)';
+ $('prices').replaceChildren();
+ for(const [key,title,unit] of [['usdt','💵 تتر','تومان'],['btc','₿ بیت‌کوین','دلار'],['xau','🟡 اونس جهانی','دلار / اونس تروا'],['gold18','✨ طلای ۱۸ عیار','تومان / گرم']]){
+  const s=current[key]||{},card=el('article',undefined,'card');
+  card.append(el('div',title),el('div',typeof s.value==='number'?fmt.format(s.value):'—','value'),el('div',unit,'muted'),el('div',s.source||'در انتظار دریافت','note'),el('div','دریافت: '+time(s.fetchedAt),'time'));
+  if(s.sourceTime)card.append(el('div','زمان اعلام‌شدهٔ منبع: '+time(s.sourceTime),'time'));
+  if(s.error)card.append(el('p',s.error,'warning'));
+  if(old(s))card.append(el('p','⚠ داده قدیمی است؛ بیش از ۹ ساعت از دریافت گذشته.','warning'));
+  $('prices').append(card);
+ }
+ const f=current.football||{};
+ $('football-time').textContent='آخرین دریافت فوتبال: '+time(f.fetchedAt)+(f.dates?' | بازه: '+f.dates.join(' تا '):'');
+ $('football-warning').textContent=[f.error,old(f)?'⚠ نتایج قدیمی هستند؛ زمان دریافت را بررسی کنید.':''].filter(Boolean).join(' ');
+ renderMatches();
+}
+const statuses={NS:'شروع نشده',TBD:'زمان نامشخص',FT:'پایان',AET:'پایان با وقت اضافه',PEN:'پایان با پنالتی',HT:'بین دو نیمه','1H':'نیمه اول','2H':'نیمه دوم',ET:'وقت اضافه',P:'پنالتی',BT:'استراحت',LIVE:'در جریان هنگام دریافت',PST:'به تعویق افتاده',CANC:'لغو شده',ABD:'نیمه‌تمام',SUSP:'متوقف',INT:'وقفه',AWD:'نتیجه انضباطی',WO:'بدون برگزاری'};
+function renderMatches(){
+ const query=$('search').value.trim().toLocaleLowerCase(),iran=$('country').value==='Iran';
+ const rows=(current.football?.matches||[]).filter(m=>(!iran||m.country==='Iran')&&[m.home,m.away,m.league,m.country].join(' ').toLocaleLowerCase().includes(query));
+ $('matches').replaceChildren();
+ for(const m of rows){const tr=el('tr');tr.append(el('td',m.league+' / '+m.country),el('td',m.home),el('td',(m.homeGoals??'—')+' : '+(m.awayGoals??'—'),'score'),el('td',m.away),el('td',(statuses[m.status]||m.status)+' | '+time(m.date)));$('matches').append(tr);}
+ $('count').textContent=fmt.format(rows.length)+' مسابقه در این نمایش';
+ $('empty').textContent=rows.length?'':(current.football?.fetchedAt?'مسابقه‌ای مطابق این فیلتر در دادهٔ دریافتی وجود ندارد؛ این به معنی نبود مسابقه در جهان یا ایران نیست.':'هنوز اطلاعات فوتبال دریافت نشده است. راهنمای فعال‌سازی کلید رایگان را ببینید.');
+}
+async function load(){
+ $('reload').disabled=true;
+ try{const response=await fetch('./data.json?t='+Date.now(),{cache:'no-store'});if(!response.ok)throw new Error('http');const next=await response.json();if(!next||typeof next!=='object'||Array.isArray(next))throw new Error('schema');current=next;$('load-error').textContent='';render();}
+ catch(e){$('load-error').textContent='فایل اطلاعات بارگیری نشد. اتصال را بررسی کنید؛ اطلاعات قبلی در صورت وجود باقی مانده است.';render();}
+ finally{$('reload').disabled=false;}
+}
+$('search').addEventListener('input',renderMatches);$('country').addEventListener('change',renderMatches);$('reload').addEventListener('click',load);
+load();setInterval(load,300000);
+</script></body></html>

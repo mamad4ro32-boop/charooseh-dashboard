@@ -2,6 +2,7 @@
 import copy
 import json
 import math
+import re
 import os
 from pathlib import Path
 from datetime import datetime, timedelta, timezone
@@ -37,12 +38,29 @@ def gold(symbol):
 
 
 def tether():
-    raw = get('https://api.nobitex.ir/market/stats?' + urlencode({'srcCurrency': 'usdt', 'dstCurrency': 'rls'}))
+    raw = get('https://apiv2.nobitex.ir/market/stats?' + urlencode({'srcCurrency': 'usdt', 'dstCurrency': 'rls'}))
     if raw.get('status') != 'ok':
         raise ValueError('Nobitex response error')
     # RLS is rial, not toman. Only use the explicitly identified USDT/RLS market.
     return {'value': positive(raw['stats']['usdt-rls']['latest']) / 10,
             'source': 'نوبیتکس؛ آخرین معامله', 'sourceUrl': 'https://nobitex.ir/'}
+
+
+def iran_gold():
+    url = 'https://www.tgju.org/profile/geram18'
+    req = Request(url, headers={'User-Agent': 'Mozilla/5.0', 'Accept': 'text/html'})
+    with urlopen(req, timeout=35) as response:
+        html = response.read().decode('utf-8')
+    # Require the profile's explicit currency and gram identity, not a sidebar price.
+    currency = re.search(r'data-target="profile-tour-step-3"[^>]*>(.*?)</h3>', html, re.S)
+    if not currency or 'ریال' not in currency.group(1) or 'Gram Gold 18' not in html:
+        raise ValueError('Unrecognized gold unit')
+    match = re.search(r'data-col="info.last_trade.PDrCotVal"[^>]*>\s*([\d,]+)\s*</span>', html)
+    if not match:
+        raise ValueError('Gold price missing')
+    return {'value': positive(match.group(1).replace(',', '')) / 10,
+            'unit': 'toman/gram', 'source': 'شبکه اطلاع‌رسانی طلا، سکه و ارز (TGJU)',
+            'sourceUrl': url}
 
 
 def football():
@@ -87,12 +105,10 @@ def main():
     refresh(data, 'usdt', tether, 'دریافت نرخ تتر ناموفق بود؛ ممکن است منبع از محل اجرای گیت‌هاب در دسترس نباشد.')
     refresh(data, 'btc', lambda: gold('BTC'), 'دریافت قیمت بیت‌کوین ناموفق بود.')
     refresh(data, 'xau', lambda: gold('XAU'), 'دریافت قیمت اونس ناموفق بود.')
-    xau = data.get('xau', {})
-    if xau.get('value'):
-        data['gold18'] = {**xau, 'value': xau['value'] / 31.1034768 * .75,
-                          'source': 'محاسبه از اونس جهانی؛ Gold API'}
-    else:
-        data['gold18'] = {'error': 'برای محاسبه، قیمت معتبر اونس دریافت نشده است.'}
+    # Never preserve a legacy theoretical USD value as an Iranian toman price.
+    if data.get('gold18', {}).get('unit') != 'toman/gram':
+        data.pop('gold18', None)
+    refresh(data, 'gold18', iran_gold, 'دریافت قیمت بازار ایران ناموفق بود؛ آخرین نرخ معتبر، در صورت وجود، نمایش داده می‌شود.')
     message = ('کلید رایگان FOOTBALL_API_KEY هنوز در GitHub Secrets تنظیم نشده است.'
                if not os.getenv('FOOTBALL_API_KEY', '').strip() else
                'دریافت فوتبال ناموفق بود؛ دسترسی فصل جاری در پلن رایگان، سهمیه و اتصال را بررسی کنید.')
