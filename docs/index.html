@@ -11,7 +11,8 @@
 <body><main>
 <header><span class="badge">به‌روزرسانی برنامه‌ریزی‌شده هر ۸ ساعت</span><h1>آخرین نتایج فوتبال و قیمت بازار</h1><p class="muted">ایران و جهان • تتر، بیت‌کوین و طلا</p><p class="note">اطلاعات لحظه‌ای نیست. زمان دریافت هر بخش جداگانه درج شده است؛ اجرای گیت‌هاب ممکن است تأخیر داشته باشد.</p><p id="attempt" class="time"></p><p id="load-error" role="alert"></p></header>
 <section id="prices" class="cards" aria-label="قیمت بازار"></section>
-<p class="note">تتر: آخرین معامله در بازار نوبیتکس، نه نرخ واحد کل بازار. طلای ۱۸ عیار: ارزش نظری هر گرم به دلار = اونس ÷ ۳۱٫۱۰۳۴۷۶۸ × ۰٫۷۵؛ بدون اجرت، مالیات و اختلاف بازار ایران. داده‌ها توصیهٔ سرمایه‌گذاری نیستند.</p>
+<p class="note">تتر: آخرین معامله در بازار نوبیتکس، نه نرخ واحد کل بازار. طلای ۱۸ عیار: طلای ۱۸ عیار: نرخ هر گرم بازار ایران از TGJU، با تبدیل ریال به تومان؛ قیمت نهایی مصنوعات با اجرت و مالیات متفاوت است.
+. داده‌ها توصیهٔ سرمایه‌گذاری نیستند.</p>
 <section class="panel" style="margin-top:24px"><h2>⚽ نتایج و برنامهٔ فوتبال</h2><p class="note">مسابقات امروز و دیروز به وقت تهران، در محدودهٔ پوشش و دسترسی رایگان API-Football. پوشش همهٔ جهان یا لیگ ایران تضمین نمی‌شود.</p><p id="football-time" class="time"></p><p id="football-warning" class="warning"></p>
 <div class="toolbar"><input id="search" type="search" placeholder="جست‌وجوی تیم یا لیگ (نام‌ها ممکن است انگلیسی باشند)" aria-label="جست‌وجوی مسابقات"><select id="country" aria-label="کشور"><option value="all">تمام کشورها</option><option value="Iran">فقط ایران</option></select><button id="reload" type="button">بازخوانی اطلاعات ذخیره‌شده</button></div>
 <p id="count" class="note"></p><div class="table-wrap"><table><thead><tr><th>رقابت / کشور</th><th>میزبان</th><th>نتیجه</th><th>مهمان</th><th>وضعیت / زمان تهران</th></tr></thead><tbody id="matches"></tbody></table></div><p id="empty" class="muted"></p>
@@ -29,7 +30,7 @@ function el(tag,text,cls){const node=document.createElement(tag);if(text!==undef
 function render(){
  $('attempt').textContent='آخرین تلاش برای دریافت: '+time(current.lastAttempt)+' (تهران)';
  $('prices').replaceChildren();
- for(const [key,title,unit] of [['usdt','💵 تتر','تومان'],['btc','₿ بیت‌کوین','دلار'],['xau','🟡 اونس جهانی','دلار / اونس تروا'],['gold18','✨ طلای ۱۸ عیار','دلار / گرم؛ محاسباتی']]){
+ for(const [key,title,unit] of [['usdt','💵 تتر','تومان'],['btc','₿ بیت‌کوین','دلار'],['xau','🟡 اونس جهانی','دلار / اونس تروا'],['gold18','✨ طلای ۱۸ عیار','تومان / گرم']]){
   const s=current[key]||{},card=el('article',undefined,'card');
   card.append(el('div',title),el('div',typeof s.value==='number'?fmt.format(s.value):'—','value'),el('div',unit,'muted'),el('div',s.source||'در انتظار دریافت','note'),el('div','دریافت: '+time(s.fetchedAt),'time'));
   if(s.sourceTime)card.append(el('div','زمان اعلام‌شدهٔ منبع: '+time(s.sourceTime),'time'));
