@@ -1,31 +1,26 @@
 {
-  "lastAttempt": "2026-11-08T12:39:24.014674+00:00",
+  "lastAttempt": "2026-11-08T13:29:46.451128+00:00",
   "usdt": {
-    "error": "دریافت نرخ تتر ناموفق بود؛ ممکن است منبع از محل اجرای گیت‌هاب در دسترس نباشد.",
-    "lastAttempt": "2026-11-08T12:39:24.820293+00:00"
+    "value": 266448.0,
+    "source": "نوبیتکس؛ آخرین معامله",
+    "sourceUrl": "https://nobitex.ir/",
+    "fetchedAt": "2026-11-08T13:29:47.332010+00:00",
+    "error": null
   },
   "btc": {
-    "value": 75853.40625,
+    "value": 75963.648438,
     "source": "Gold API",
     "sourceUrl": "https://gold-api.com/",
-    "sourceTime": "2026-11-08T12:39:23Z",
-    "fetchedAt": "2026-11-08T12:39:24.964986+00:00",
+    "sourceTime": "2026-11-08T13:29:23Z",
+    "fetchedAt": "2026-11-08T13:29:47.553599+00:00",
     "error": null
   },
   "xau": {
     "value": 4072.100098,
     "source": "Gold API",
     "sourceUrl": "https://gold-api.com/",
-    "sourceTime": "2026-11-08T12:39:22Z",
-    "fetchedAt": "2026-11-08T12:39:25.079781+00:00",
-    "error": null
-  },
-  "gold18": {
-    "value": 98.19079368966237,
-    "source": "محاسبه از اونس جهانی؛ Gold API",
-    "sourceUrl": "https://gold-api.com/",
-    "sourceTime": "2026-11-08T12:39:22Z",
-    "fetchedAt": "2026-11-08T12:39:25.079781+00:00",
+    "sourceTime": "2026-11-08T13:29:22Z",
+    "fetchedAt": "2026-11-08T13:29:47.802743+00:00",
     "error": null
   },
   "football": {
@@ -17094,24 +17089,24 @@
       {
         "id": 1637993,
         "date": "2026-11-08T11:30:00+03:30",
-        "status": "NS",
+        "status": "FT",
         "league": "AFC U17 Asian Cup",
         "country": "World",
         "home": "Hong Kong U17",
         "away": "Iraq U17",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 1,
+        "awayGoals": 1
       },
       {
         "id": 1637998,
         "date": "2026-11-08T11:30:00+03:30",
-        "status": "NS",
+        "status": "FT",
         "league": "AFC U17 Asian Cup",
         "country": "World",
         "home": "N. Mariana Islands U17",
         "away": "Mongolia U17",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 2
       },
       {
         "id": 1640874,
@@ -17237,13 +17232,13 @@
       {
         "id": 1620534,
         "date": "2026-11-08T12:30:00+03:30",
-        "status": "NS",
+        "status": "FT",
         "league": "Gamma Ethniki - Group 6",
         "country": "Greece",
         "home": "Levante",
         "away": "Agios Matthaios",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 1,
+        "awayGoals": 2
       },
       {
         "id": 1623518,
@@ -17292,13 +17287,13 @@
       {
         "id": 1638000,
         "date": "2026-11-08T12:30:00+03:30",
-        "status": "NS",
+        "status": "FT",
         "league": "AFC U17 Asian Cup",
         "country": "World",
         "home": "Sri Lanka U17",
         "away": "Pakistan U17",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 1,
+        "awayGoals": 3
       },
       {
         "id": 1559831,
@@ -17556,18 +17551,18 @@
       {
         "id": 1578386,
         "date": "2026-11-08T13:30:00+03:30",
-        "status": "NS",
+        "status": "FT",
         "league": "Second Amateur Division - VFV B",
         "country": "Belgium",
         "home": "Sint-Truiden II",
         "away": "Wellen",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 2,
+        "awayGoals": 1
       },
       {
         "id": 1581967,
         "date": "2026-11-08T13:30:00+03:30",
-        "status": "INT",
+        "status": "2H",
         "league": "Persha Liga",
         "country": "Ukraine",
         "home": "UCSA",
@@ -18018,35 +18013,35 @@
       {
         "id": 1605117,
         "date": "2026-11-08T14:00:00+03:30",
-        "status": "NS",
+        "status": "FT",
         "league": "First League",
         "country": "Armenia",
         "home": "Lernayin Artsakh",
         "away": "Olympia Yerevan",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 1,
+        "awayGoals": 4
       },
       {
         "id": 1605119,
         "date": "2026-11-08T14:00:00+03:30",
-        "status": "NS",
+        "status": "FT",
         "league": "First League",
         "country": "Armenia",
         "home": "Sardarapat 2",
         "away": "Andranik",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 1,
+        "awayGoals": 0
       },
       {
         "id": 1605120,
         "date": "2026-11-08T14:00:00+03:30",
-        "status": "NS",
+        "status": "FT",
         "league": "First League",
         "country": "Armenia",
         "home": "Banants II",
         "away": "Ararat II",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 1,
+        "awayGoals": 0
       },
       {
         "id": 1614318,
@@ -18128,18 +18123,18 @@
       {
         "id": 1572724,
         "date": "2026-11-08T14:15:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Segunda División RFEF - Group 3",
         "country": "Spain",
         "home": "Castellonense",
         "away": "Alcoyano",
-        "homeGoals": 1,
+        "homeGoals": 3,
         "awayGoals": 4
       },
       {
         "id": 1614011,
         "date": "2026-11-08T14:15:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Tercera División RFEF - Group 5",
         "country": "Spain",
         "home": "Grama",
@@ -18150,7 +18145,7 @@
       {
         "id": 1614928,
         "date": "2026-11-08T14:15:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Tercera División RFEF - Group 8",
         "country": "Spain",
         "home": "Burgos Promesas",
@@ -18161,7 +18156,7 @@
       {
         "id": 1515949,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Virsliga",
         "country": "Latvia",
         "home": "Grobiņa",
@@ -18172,7 +18167,7 @@
       {
         "id": 1515950,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Virsliga",
         "country": "Latvia",
         "home": "FS Jelgava",
@@ -18194,7 +18189,7 @@
       {
         "id": 1515952,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Virsliga",
         "country": "Latvia",
         "home": "Super Nova",
@@ -18205,7 +18200,7 @@
       {
         "id": 1515953,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Virsliga",
         "country": "Latvia",
         "home": "Tukums",
@@ -18216,29 +18211,29 @@
       {
         "id": 1516178,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Super League",
         "country": "Uzbekistan",
         "home": "Buxoro",
         "away": "Nasaf",
         "homeGoals": 0,
-        "awayGoals": 0
+        "awayGoals": 1
       },
       {
         "id": 1516180,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Super League",
         "country": "Uzbekistan",
         "home": "Neftchi",
         "away": "Olmaliq",
-        "homeGoals": 0,
-        "awayGoals": 0
+        "homeGoals": 2,
+        "awayGoals": 1
       },
       {
         "id": 1534501,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "1. Division",
         "country": "Belarus",
         "home": "Niva",
@@ -18249,7 +18244,7 @@
       {
         "id": 1549053,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Superliga",
         "country": "Denmark",
         "home": "FC Copenhagen",
@@ -18260,18 +18255,18 @@
       {
         "id": 1551486,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "First League",
         "country": "Macedonia",
         "home": "Bashkimi Kumanovo",
         "away": "Bregalnica Štip",
         "homeGoals": 1,
-        "awayGoals": 0
+        "awayGoals": 1
       },
       {
         "id": 1561439,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Premier League",
         "country": "Russia",
         "home": "Krylia Sovetov",
@@ -18282,7 +18277,7 @@
       {
         "id": 1561715,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "II Liga - East",
         "country": "Poland",
         "home": "Rekord Bielsko-Biała",
@@ -18293,18 +18288,18 @@
       {
         "id": 1561717,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "II Liga - East",
         "country": "Poland",
         "home": "Legia Warszawa II",
         "away": "Olimpia Grudziądz",
-        "homeGoals": 1,
+        "homeGoals": 2,
         "awayGoals": 1
       },
       {
         "id": 1565521,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Premier League",
         "country": "Ukraine",
         "home": "Bukovyna",
@@ -18315,18 +18310,18 @@
       {
         "id": 1565524,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Premier League",
         "country": "Ukraine",
         "home": "Zorya Luhansk",
         "away": "LNZ Cherkasy",
-        "homeGoals": 0,
+        "homeGoals": 1,
         "awayGoals": 2
       },
       {
         "id": 1569169,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "III Liga - Group 1",
         "country": "Poland",
         "home": "Widzew II",
@@ -18337,18 +18332,18 @@
       {
         "id": 1570817,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Primera División RFEF - Group 1",
         "country": "Spain",
         "home": "Arenas Getxo",
         "away": "Deportivo La Coruña II",
-        "homeGoals": 1,
+        "homeGoals": 2,
         "awayGoals": 1
       },
       {
         "id": 1571196,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Primera División RFEF - Group 2",
         "country": "Spain",
         "home": "Águilas",
@@ -18359,18 +18354,18 @@
       {
         "id": 1571199,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Primera División RFEF - Group 2",
         "country": "Spain",
         "home": "Europa Fc",
         "away": "Atlético Madrid II",
-        "homeGoals": 2,
+        "homeGoals": 3,
         "awayGoals": 2
       },
       {
         "id": 1571203,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Primera División RFEF - Group 2",
         "country": "Spain",
         "home": "Teruel",
@@ -18381,7 +18376,7 @@
       {
         "id": 1571204,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Primera División RFEF - Group 2",
         "country": "Spain",
         "home": "Villarreal II",
@@ -18392,7 +18387,7 @@
       {
         "id": 1572425,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Segunda División RFEF - Group 2",
         "country": "Spain",
         "home": "Utebo",
@@ -18403,7 +18398,7 @@
       {
         "id": 1572723,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Segunda División RFEF - Group 3",
         "country": "Spain",
         "home": "Atlético Baleares",
@@ -18414,35 +18409,35 @@
       {
         "id": 1572727,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Segunda División RFEF - Group 3",
         "country": "Spain",
         "home": "Mallorca II",
         "away": "Yeclano",
         "homeGoals": 2,
-        "awayGoals": 0
+        "awayGoals": 1
       },
       {
         "id": 1573031,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Segunda División RFEF - Group 4",
         "country": "Spain",
         "home": "Estepona",
         "away": "Tamaraceite",
-        "homeGoals": 4,
+        "homeGoals": 5,
         "awayGoals": 0
       },
       {
         "id": 1573033,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Segunda División RFEF - Group 4",
         "country": "Spain",
         "home": "Don Benito",
         "away": "Puente Genil",
-        "homeGoals": 2,
-        "awayGoals": 0
+        "homeGoals": 3,
+        "awayGoals": 2
       },
       {
         "id": 1573034,
@@ -18458,7 +18453,7 @@
       {
         "id": 1573035,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Segunda División RFEF - Group 4",
         "country": "Spain",
         "home": "Marbella",
@@ -18480,29 +18475,29 @@
       {
         "id": 1573342,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "NS",
+        "status": "FT",
         "league": "Segunda División RFEF - Group 5",
         "country": "Spain",
         "home": "Numancia",
         "away": "Calvo Sotelo",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 6,
+        "awayGoals": 0
       },
       {
         "id": 1573637,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Primera División Femenina",
         "country": "Spain",
         "home": "Edf Logrono W",
         "away": "Sevilla W",
-        "homeGoals": 1,
+        "homeGoals": 2,
         "awayGoals": 2
       },
       {
         "id": 1576524,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Segunda Liga",
         "country": "Portugal",
         "home": "FC Porto B",
@@ -18513,7 +18508,7 @@
       {
         "id": 1576525,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Segunda Liga",
         "country": "Portugal",
         "home": "Feirense",
@@ -18524,7 +18519,7 @@
       {
         "id": 1581558,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Premier League",
         "country": "Armenia",
         "home": "Syunik",
@@ -18546,7 +18541,7 @@
       {
         "id": 1583900,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Second League A - Division A Gold",
         "country": "Russia",
         "home": "Dinamo Kirov",
@@ -18557,7 +18552,7 @@
       {
         "id": 1590211,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "First NL",
         "country": "Croatia",
         "home": "Dugopolje",
@@ -18568,18 +18563,18 @@
       {
         "id": 1593066,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "NS",
+        "status": "FT",
         "league": "Druha Liga",
         "country": "Ukraine",
         "home": "Vilkhivtsi",
         "away": "Dinaz Vyshhorod",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 4,
+        "awayGoals": 1
       },
       {
         "id": 1597810,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Liga 3",
         "country": "Portugal",
         "home": "Louletano",
@@ -18590,7 +18585,7 @@
       {
         "id": 1598072,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Thai League 1",
         "country": "Thailand",
         "home": "BG Pathum United",
@@ -18601,7 +18596,7 @@
       {
         "id": 1598073,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Thai League 1",
         "country": "Thailand",
         "home": "Rasi Salai United",
@@ -18612,7 +18607,7 @@
       {
         "id": 1598741,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Liga Revelação U23",
         "country": "Portugal",
         "home": "Sporting CP U23",
@@ -18623,7 +18618,7 @@
       {
         "id": 1599279,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Central Youth League",
         "country": "Poland",
         "home": "Miedź Legnica U19",
@@ -18634,7 +18629,7 @@
       {
         "id": 1599406,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Central Youth League",
         "country": "Poland",
         "home": "Talent Warszawa U19",
@@ -18645,7 +18640,7 @@
       {
         "id": 1601927,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Premyer Liqa",
         "country": "Azerbaijan",
         "home": "Imisli FK",
@@ -18656,29 +18651,29 @@
       {
         "id": 1602732,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Thai League 2",
         "country": "Thailand",
         "home": "Nakhon Pathom",
         "away": "Mahasarakham United",
-        "homeGoals": 4,
+        "homeGoals": 6,
         "awayGoals": 2
       },
       {
         "id": 1602733,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Thai League 2",
         "country": "Thailand",
         "home": "Satun",
         "away": "Chiangmai United",
-        "homeGoals": 0,
+        "homeGoals": 1,
         "awayGoals": 1
       },
       {
         "id": 1605611,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Campeonato de Portugal Prio - Group B",
         "country": "Portugal",
         "home": "Sanjoanense",
@@ -18689,40 +18684,40 @@
       {
         "id": 1605957,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Campeonato de Portugal Prio - Group D",
         "country": "Portugal",
         "home": "Alcochetense",
         "away": "Lajense",
-        "homeGoals": 2,
+        "homeGoals": 3,
         "awayGoals": 0
       },
       {
         "id": 1606058,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Campeonato de Portugal Prio - Group D",
         "country": "Portugal",
         "home": "Imortal Albufeira",
         "away": "Santa Clara B",
         "homeGoals": 3,
-        "awayGoals": 1
+        "awayGoals": 2
       },
       {
         "id": 1607340,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Premier League",
         "country": "Hong-Kong",
         "home": "Eastern District",
         "away": "Wofoo Tai Po",
         "homeGoals": 1,
-        "awayGoals": 2
+        "awayGoals": 3
       },
       {
         "id": 1610658,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "C-League",
         "country": "Cambodia",
         "home": "Phnom Penh Crown",
@@ -18733,7 +18728,7 @@
       {
         "id": 1610661,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "C-League",
         "country": "Cambodia",
         "home": "Svay Rieng",
@@ -18744,18 +18739,18 @@
       {
         "id": 1610662,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "C-League",
         "country": "Cambodia",
         "home": "Angkor Tiger",
         "away": "Visakha",
-        "homeGoals": 2,
+        "homeGoals": 3,
         "awayGoals": 1
       },
       {
         "id": 1612790,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Tercera División RFEF - Group 1",
         "country": "Spain",
         "home": "Villalbés",
@@ -18777,7 +18772,7 @@
       {
         "id": 1613090,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Tercera División RFEF - Group 2",
         "country": "Spain",
         "home": "Condal",
@@ -18788,18 +18783,18 @@
       {
         "id": 1613094,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Tercera División RFEF - Group 2",
         "country": "Spain",
         "home": "Colunga",
         "away": "Langreo",
         "homeGoals": 2,
-        "awayGoals": 2
+        "awayGoals": 3
       },
       {
         "id": 1613096,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Tercera División RFEF - Group 2",
         "country": "Spain",
         "home": "San Martín",
@@ -18810,7 +18805,7 @@
       {
         "id": 1613396,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Tercera División RFEF - Group 3",
         "country": "Spain",
         "home": "Cayón",
@@ -18821,7 +18816,7 @@
       {
         "id": 1614012,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Tercera División RFEF - Group 5",
         "country": "Spain",
         "home": "Martinenc",
@@ -18832,7 +18827,7 @@
       {
         "id": 1614013,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Tercera División RFEF - Group 5",
         "country": "Spain",
         "home": "Montañesa",
@@ -18843,7 +18838,7 @@
       {
         "id": 1614014,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Tercera División RFEF - Group 5",
         "country": "Spain",
         "home": "Pobla Mafumet",
@@ -18854,7 +18849,7 @@
       {
         "id": 1614316,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Tercera División RFEF - Group 6",
         "country": "Spain",
         "home": "Jove Español",
@@ -18865,7 +18860,7 @@
       {
         "id": 1614317,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Tercera División RFEF - Group 6",
         "country": "Spain",
         "home": "Hércules II",
@@ -18876,29 +18871,29 @@
       {
         "id": 1614319,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Tercera División RFEF - Group 6",
         "country": "Spain",
         "home": "Torrellano",
         "away": "Ontinyent 1931",
         "homeGoals": 1,
-        "awayGoals": 1
+        "awayGoals": 3
       },
       {
         "id": 1614320,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Tercera División RFEF - Group 6",
         "country": "Spain",
         "home": "Torrent",
         "away": "Roda",
-        "homeGoals": 1,
-        "awayGoals": 0
+        "homeGoals": 3,
+        "awayGoals": 1
       },
       {
         "id": 1614623,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Tercera División RFEF - Group 7",
         "country": "Spain",
         "home": "Las Rozas",
@@ -18909,18 +18904,18 @@
       {
         "id": 1614624,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Tercera División RFEF - Group 7",
         "country": "Spain",
         "home": "Leganés II",
         "away": "Colonia Moscardó",
-        "homeGoals": 1,
-        "awayGoals": 1
+        "homeGoals": 2,
+        "awayGoals": 2
       },
       {
         "id": 1614625,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Tercera División RFEF - Group 7",
         "country": "Spain",
         "home": "Pozuelo Alarcón",
@@ -18942,7 +18937,7 @@
       {
         "id": 1615232,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Tercera División RFEF - Group 9",
         "country": "Spain",
         "home": "Arenas Armilla",
@@ -18953,18 +18948,18 @@
       {
         "id": 1615234,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Tercera División RFEF - Group 9",
         "country": "Spain",
         "home": "Huétor Vega",
         "away": "Alhaurino",
-        "homeGoals": 1,
+        "homeGoals": 2,
         "awayGoals": 1
       },
       {
         "id": 1615235,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Tercera División RFEF - Group 9",
         "country": "Spain",
         "home": "Mancha Real",
@@ -18975,51 +18970,51 @@
       {
         "id": 1615239,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "LIVE",
+        "status": "FT",
         "league": "Tercera División RFEF - Group 9",
         "country": "Spain",
         "home": "Torre del Mar",
         "away": "Malaga City",
-        "homeGoals": 0,
+        "homeGoals": 1,
         "awayGoals": 0
       },
       {
         "id": 1615545,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Tercera División RFEF - Group 10",
         "country": "Spain",
         "home": "Sevilla III",
         "away": "Utrera",
-        "homeGoals": 2,
+        "homeGoals": 3,
         "awayGoals": 3
       },
       {
         "id": 1615848,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "LIVE",
+        "status": "FT",
         "league": "Tercera División RFEF - Group 11",
         "country": "Spain",
         "home": "Formentera",
         "away": "Sineu",
         "homeGoals": 0,
-        "awayGoals": 0
+        "awayGoals": 1
       },
       {
         "id": 1615849,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Tercera División RFEF - Group 11",
         "country": "Spain",
         "home": "Inter Ibiza",
         "away": "Migjorn",
-        "homeGoals": 1,
+        "homeGoals": 2,
         "awayGoals": 0
       },
       {
         "id": 1616459,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Tercera División RFEF - Group 13",
         "country": "Spain",
         "home": "Cartagena LU II",
@@ -19041,18 +19036,18 @@
       {
         "id": 1616770,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Tercera División RFEF - Group 14",
         "country": "Spain",
         "home": "Plasencia",
         "away": "Villafranca",
-        "homeGoals": 2,
-        "awayGoals": 4
+        "homeGoals": 3,
+        "awayGoals": 5
       },
       {
         "id": 1617374,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Tercera División RFEF - Group 16",
         "country": "Spain",
         "home": "Berceo",
@@ -19063,12 +19058,12 @@
       {
         "id": 1617381,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Tercera División RFEF - Group 16",
         "country": "Spain",
         "home": "Varea",
         "away": "Anguiano",
-        "homeGoals": 0,
+        "homeGoals": 2,
         "awayGoals": 0
       },
       {
@@ -19085,7 +19080,7 @@
       {
         "id": 1617686,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Tercera División RFEF - Group 17",
         "country": "Spain",
         "home": "Cuarte",
@@ -19096,7 +19091,7 @@
       {
         "id": 1617687,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Tercera División RFEF - Group 17",
         "country": "Spain",
         "home": "Ejea",
@@ -19107,7 +19102,7 @@
       {
         "id": 1617988,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Tercera División RFEF - Group 18",
         "country": "Spain",
         "home": "Illescas",
@@ -19118,7 +19113,7 @@
       {
         "id": 1617990,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Tercera División RFEF - Group 18",
         "country": "Spain",
         "home": "Socuéllamos",
@@ -19140,7 +19135,7 @@
       {
         "id": 1623519,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Liga 1 Feminin",
         "country": "Romania",
         "home": "Olimpia Cluj W",
@@ -19151,18 +19146,18 @@
       {
         "id": 1627665,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "1. Liga Women",
         "country": "Czech-Republic",
         "home": "Viktoria Plzeň W",
         "away": "Horní Heršpice W",
-        "homeGoals": 1,
+        "homeGoals": 3,
         "awayGoals": 0
       },
       {
         "id": 1629106,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "FKF Premier League",
         "country": "Kenya",
         "home": "Bandari",
@@ -19173,7 +19168,7 @@
       {
         "id": 1629736,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Challenge League",
         "country": "Malta",
         "home": "Attard",
@@ -19184,18 +19179,18 @@
       {
         "id": 1635009,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "V.League 2",
         "country": "Vietnam",
         "home": "Than Quang Ninh",
         "away": "Thai Nguyen",
         "homeGoals": 0,
-        "awayGoals": 3
+        "awayGoals": 4
       },
       {
         "id": 1635010,
         "date": "2026-11-08T14:30:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "V.League 2",
         "country": "Vietnam",
         "home": "Hung Yen",
@@ -19217,18 +19212,18 @@
       {
         "id": 1552221,
         "date": "2026-11-08T14:45:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Eredivisie",
         "country": "Netherlands",
         "home": "Heerenveen",
         "away": "Feyenoord",
-        "homeGoals": 3,
-        "awayGoals": 2
+        "homeGoals": 5,
+        "awayGoals": 3
       },
       {
         "id": 1558270,
         "date": "2026-11-08T14:45:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "I Liga",
         "country": "Poland",
         "home": "Polonia Bytom",
@@ -19239,7 +19234,7 @@
       {
         "id": 1613092,
         "date": "2026-11-08T14:45:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Tercera División RFEF - Group 2",
         "country": "Spain",
         "home": "Astur",
@@ -19250,18 +19245,18 @@
       {
         "id": 1616766,
         "date": "2026-11-08T14:45:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Tercera División RFEF - Group 14",
         "country": "Spain",
         "home": "Puebla Calzada",
         "away": "Cabeza Buey",
-        "homeGoals": 1,
+        "homeGoals": 2,
         "awayGoals": 1
       },
       {
         "id": 1617682,
         "date": "2026-11-08T14:45:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Tercera División RFEF - Group 17",
         "country": "Spain",
         "home": "Binéfar",
@@ -19283,7 +19278,7 @@
       {
         "id": 1550193,
         "date": "2026-11-08T15:00:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Serie A",
         "country": "Italy",
         "home": "Napoli",
@@ -19294,100 +19289,100 @@
       {
         "id": 1561714,
         "date": "2026-11-08T15:00:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "II Liga - East",
         "country": "Poland",
         "home": "Avia Świdnik",
         "away": "Hutnik Kraków",
-        "homeGoals": 0,
+        "homeGoals": 2,
         "awayGoals": 1
       },
       {
         "id": 1573037,
         "date": "2026-11-08T15:00:00+03:30",
-        "status": "HT",
+        "status": "FT",
         "league": "Segunda División RFEF - Group 4",
         "country": "Spain",
         "home": "Sanluqueño",
         "away": "Xerez",
         "homeGoals": 0,
-        "awayGoals": 0
+        "awayGoals": 4
       },
       {
         "id": 1592055,
         "date": "2026-11-08T15:00:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Júniores U19",
         "country": "Portugal",
         "home": "Porto U19",
         "away": "Vizela U19",
-        "homeGoals": 0,
+        "homeGoals": 3,
         "awayGoals": 0
       },
       {
         "id": 1593068,
         "date": "2026-11-08T15:00:00+03:30",
-        "status": "NS",
+        "status": "FT",
         "league": "Druha Liga",
         "country": "Ukraine",
         "home": "Nyva Ternopil II",
         "away": "Nyva Vinnytsya",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 3,
+        "awayGoals": 0
       },
       {
         "id": 1598074,
         "date": "2026-11-08T15:00:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Thai League 1",
         "country": "Thailand",
         "home": "Prachuap",
         "away": "Sisaket United",
-        "homeGoals": 0,
-        "awayGoals": 0
+        "homeGoals": 2,
+        "awayGoals": 1
       },
       {
         "id": 1601282,
         "date": "2026-11-08T15:00:00+03:30",
-        "status": "HT",
+        "status": "FT",
         "league": "Serie A Women",
         "country": "Italy",
         "home": "Parma W",
         "away": "Como W",
-        "homeGoals": 0,
+        "homeGoals": 1,
         "awayGoals": 0
       },
       {
         "id": 1602734,
         "date": "2026-11-08T15:00:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "Thai League 2",
         "country": "Thailand",
         "home": "Nong Bua Pitchaya",
         "away": "Chainat",
-        "homeGoals": 1,
+        "homeGoals": 2,
         "awayGoals": 1
       },
       {
         "id": 1608734,
         "date": "2026-11-08T15:00:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Serie C - Girone B",
         "country": "Italy",
         "home": "Grosseto",
         "away": "Pescara",
-        "homeGoals": 0,
-        "awayGoals": 0
+        "homeGoals": 1,
+        "awayGoals": 3
       },
       {
         "id": 1608739,
         "date": "2026-11-08T15:00:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "Serie C - Girone B",
         "country": "Italy",
         "home": "Torres",
         "away": "Latina",
-        "homeGoals": 0,
+        "homeGoals": 2,
         "awayGoals": 0
       },
       {
@@ -19398,7 +19393,7 @@
         "country": "Spain",
         "home": "Churriana Vega",
         "away": "Atletico de Marbella",
-        "homeGoals": 0,
+        "homeGoals": 2,
         "awayGoals": 0
       },
       {
@@ -19415,7 +19410,7 @@
       {
         "id": 1616763,
         "date": "2026-11-08T15:00:00+03:30",
-        "status": "HT",
+        "status": "LIVE",
         "league": "Tercera División RFEF - Group 14",
         "country": "Spain",
         "home": "CD Zafra",
@@ -19426,29 +19421,29 @@
       {
         "id": 1629473,
         "date": "2026-11-08T15:00:00+03:30",
-        "status": "2H",
+        "status": "FT",
         "league": "U19 league",
         "country": "Turkey",
         "home": "Alanyaspor U19",
         "away": "Trabzonspor U19",
-        "homeGoals": 0,
+        "homeGoals": 1,
         "awayGoals": 1
       },
       {
         "id": 1640738,
         "date": "2026-11-08T15:00:00+03:30",
-        "status": "LIVE",
+        "status": "2H",
         "league": "Azadegan League",
         "country": "Iran",
         "home": "Fard Alborz",
         "away": "Be'sat Kermanshah",
-        "homeGoals": 0,
-        "awayGoals": 0
+        "homeGoals": 3,
+        "awayGoals": 1
       },
       {
         "id": 1640739,
         "date": "2026-11-08T15:00:00+03:30",
-        "status": "LIVE",
+        "status": "2H",
         "league": "Azadegan League",
         "country": "Iran",
         "home": "Mes Kerman",
@@ -19470,12 +19465,12 @@
       {
         "id": 1645656,
         "date": "2026-11-08T15:15:00+03:30",
-        "status": "HT",
+        "status": "2H",
         "league": "FA Cup",
         "country": "Malaysia",
         "home": "Kuching FA",
         "away": "Selangor",
-        "homeGoals": 0,
+        "homeGoals": 1,
         "awayGoals": 0
       },
       {
@@ -19503,29 +19498,29 @@
       {
         "id": 1496007,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "1. Division",
         "country": "Norway",
         "home": "Bryne",
         "away": "Kongsvinger",
-        "homeGoals": 0,
+        "homeGoals": 2,
         "awayGoals": 0
       },
       {
         "id": 1496008,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "1. Division",
         "country": "Norway",
         "home": "Haugesund",
         "away": "ODD Ballklubb",
-        "homeGoals": 0,
-        "awayGoals": 2
+        "homeGoals": 1,
+        "awayGoals": 3
       },
       {
         "id": 1496009,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "1. Division",
         "country": "Norway",
         "home": "Moss",
@@ -19536,29 +19531,29 @@
       {
         "id": 1496010,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "1. Division",
         "country": "Norway",
         "home": "Raufoss",
         "away": "Egersund",
         "homeGoals": 0,
-        "awayGoals": 1
+        "awayGoals": 2
       },
       {
         "id": 1496011,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "1. Division",
         "country": "Norway",
         "home": "Sandnes ULF",
         "away": "Asane",
-        "homeGoals": 1,
-        "awayGoals": 0
+        "homeGoals": 3,
+        "awayGoals": 1
       },
       {
         "id": 1496012,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "1. Division",
         "country": "Norway",
         "home": "Sogndal",
@@ -19569,18 +19564,18 @@
       {
         "id": 1496013,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "1. Division",
         "country": "Norway",
         "home": "Stabaek",
         "away": "Stromsgodset",
-        "homeGoals": 1,
+        "homeGoals": 2,
         "awayGoals": 2
       },
       {
         "id": 1496014,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "1. Division",
         "country": "Norway",
         "home": "Strommen",
@@ -19591,7 +19586,7 @@
       {
         "id": 1501524,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "Elitettan",
         "country": "Sweden",
         "home": "Örebro SK W",
@@ -19602,7 +19597,7 @@
       {
         "id": 1501526,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "Elitettan",
         "country": "Sweden",
         "home": "Umeå W",
@@ -19613,56 +19608,56 @@
       {
         "id": 1526028,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "Premier League",
         "country": "Belarus",
         "home": "Neman",
         "away": "FC Dnepr Mogilev",
-        "homeGoals": 1,
+        "homeGoals": 2,
         "awayGoals": 1
       },
       {
         "id": 1551137,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "First League",
         "country": "Bulgaria",
         "home": "Spartak Varna",
         "away": "Arda Kardzhali",
-        "homeGoals": 1,
+        "homeGoals": 2,
         "awayGoals": 2
       },
       {
         "id": 1551485,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "First League",
         "country": "Macedonia",
         "home": "Aresimi",
         "away": "Shkëndija Haraçinë",
         "homeGoals": 0,
-        "awayGoals": 0
+        "awayGoals": 1
       },
       {
         "id": 1553907,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "Super Liga",
         "country": "Serbia",
         "home": "Novi Pazar",
         "away": "Mladost Lucani",
-        "homeGoals": 0,
+        "homeGoals": 1,
         "awayGoals": 0
       },
       {
         "id": 1553909,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "Super Liga",
         "country": "Serbia",
         "home": "Radnik Surdulica",
         "away": "OFK Beograd",
-        "homeGoals": 0,
+        "homeGoals": 1,
         "awayGoals": 0
       },
       {
@@ -19679,12 +19674,12 @@
       {
         "id": 1559413,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "Second League",
         "country": "Montenegro",
         "home": "Mladost Lješkopolje",
         "away": "Mogren",
-        "homeGoals": 1,
+        "homeGoals": 3,
         "awayGoals": 0
       },
       {
@@ -19723,13 +19718,13 @@
       {
         "id": 1560071,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "Czech Liga",
         "country": "Czech-Republic",
         "home": "Teplice",
         "away": "Pardubice",
         "homeGoals": 1,
-        "awayGoals": 1
+        "awayGoals": 4
       },
       {
         "id": 1566149,
@@ -19767,13 +19762,13 @@
       {
         "id": 1568395,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "III Liga - Group 4",
         "country": "Poland",
         "home": "Busko-Zdroj",
         "away": "Jarosław",
-        "homeGoals": 1,
-        "awayGoals": 0
+        "homeGoals": 2,
+        "awayGoals": 1
       },
       {
         "id": 1569425,
@@ -19789,7 +19784,7 @@
       {
         "id": 1569428,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "Campionato Primavera - 1",
         "country": "Italy",
         "home": "Cagliari U20",
@@ -19833,29 +19828,29 @@
       {
         "id": 1591370,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "2. Lig",
         "country": "Turkey",
         "home": "Arnavutköy Belediyespor",
         "away": "Menemen FK",
-        "homeGoals": 0,
+        "homeGoals": 1,
         "awayGoals": 0
       },
       {
         "id": 1591371,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "2. Lig",
         "country": "Turkey",
         "home": "Çorluspor 1947",
         "away": "68 Aksaray Belediyespor",
         "homeGoals": 0,
-        "awayGoals": 0
+        "awayGoals": 1
       },
       {
         "id": 1591373,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "2. Lig",
         "country": "Turkey",
         "home": "Güzide Gebzespor",
@@ -19866,7 +19861,7 @@
       {
         "id": 1591670,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "2. Lig",
         "country": "Turkey",
         "home": "İnegölspor",
@@ -19877,7 +19872,7 @@
       {
         "id": 1591671,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "2. Lig",
         "country": "Turkey",
         "home": "Karacabey Belediyespor",
@@ -19888,29 +19883,29 @@
       {
         "id": 1593072,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "Druha Liga",
         "country": "Ukraine",
         "home": "Ruh Lviv",
         "away": "Skala 1911 Stryi",
-        "homeGoals": 2,
-        "awayGoals": 1
+        "homeGoals": 3,
+        "awayGoals": 2
       },
       {
         "id": 1593954,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "NB III - Northeast",
         "country": "Hungary",
         "home": "Hajdúnánás",
         "away": "Nyiregyhaza II",
-        "homeGoals": 3,
+        "homeGoals": 5,
         "awayGoals": 1
       },
       {
         "id": 1594192,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "NB III - Northwest",
         "country": "Hungary",
         "home": "Balatonalmádi",
@@ -19921,7 +19916,7 @@
       {
         "id": 1594432,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "NB III - Southeast",
         "country": "Hungary",
         "home": "BKV Előre",
@@ -19932,18 +19927,18 @@
       {
         "id": 1594433,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "NB III - Southeast",
         "country": "Hungary",
         "home": "ESMTK",
         "away": "III. Kerületi TUE",
-        "homeGoals": 0,
+        "homeGoals": 1,
         "awayGoals": 0
       },
       {
         "id": 1594675,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "NB III - Southwest",
         "country": "Hungary",
         "home": "Siofok",
@@ -19965,7 +19960,7 @@
       {
         "id": 1598075,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "Thai League 1",
         "country": "Thailand",
         "home": "Ratchaburi",
@@ -19976,7 +19971,7 @@
       {
         "id": 1602735,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "Thai League 2",
         "country": "Thailand",
         "home": "Kasetsart FC",
@@ -20009,18 +20004,18 @@
       {
         "id": 1607719,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "FA WSL",
         "country": "England",
         "home": "Liverpool W",
         "away": "Arsenal W",
         "homeGoals": 1,
-        "awayGoals": 1
+        "awayGoals": 2
       },
       {
         "id": 1607721,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "FA WSL",
         "country": "England",
         "home": "Aston Villa W",
@@ -20031,23 +20026,23 @@
       {
         "id": 1609407,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "Women's Championship",
         "country": "England",
         "home": "Durham W",
         "away": "Sunderland W",
-        "homeGoals": 0,
+        "homeGoals": 1,
         "awayGoals": 3
       },
       {
         "id": 1616153,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "Tercera División RFEF - Group 12",
         "country": "Spain",
         "home": "Mensajero",
         "away": "Marino",
-        "homeGoals": 0,
+        "homeGoals": 1,
         "awayGoals": 0
       },
       {
@@ -20064,7 +20059,7 @@
       {
         "id": 1621081,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "Premier League 2 Division One",
         "country": "England",
         "home": "Leeds United U21",
@@ -20075,24 +20070,24 @@
       {
         "id": 1621084,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "Premier League 2 Division One",
         "country": "England",
         "home": "Crystal Palace U21",
         "away": "Everton U21",
-        "homeGoals": 0,
+        "homeGoals": 1,
         "awayGoals": 0
       },
       {
         "id": 1622834,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "Liga 1",
         "country": "Indonesia",
         "home": "Java United",
         "away": "Persib Bandung",
         "homeGoals": 2,
-        "awayGoals": 0
+        "awayGoals": 1
       },
       {
         "id": 1626912,
@@ -20108,51 +20103,51 @@
       {
         "id": 1629108,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "FKF Premier League",
         "country": "Kenya",
         "home": "Homeboyz",
         "away": "Kenya Police",
-        "homeGoals": 1,
+        "homeGoals": 2,
         "awayGoals": 0
       },
       {
         "id": 1629111,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "FKF Premier League",
         "country": "Kenya",
         "home": "Mathare United",
         "away": "Posta Rangers FC",
         "homeGoals": 0,
-        "awayGoals": 1
+        "awayGoals": 2
       },
       {
         "id": 1629113,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "FKF Premier League",
         "country": "Kenya",
         "home": "Murang'a SEAL",
         "away": "Ulinzi Stars",
         "homeGoals": 0,
-        "awayGoals": 0
+        "awayGoals": 1
       },
       {
         "id": 1630261,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "Super Liga",
         "country": "Moldova",
         "home": "Milsami Orhei",
         "away": "CSF Bălți",
-        "homeGoals": 2,
+        "homeGoals": 3,
         "awayGoals": 1
       },
       {
         "id": 1635100,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "Premijer Liga",
         "country": "Bosnia",
         "home": "Sloga Doboj",
@@ -20174,18 +20169,18 @@
       {
         "id": 1637708,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "Liga 2",
         "country": "Indonesia",
         "home": "Persikad Depok FC",
         "away": "Persiku Kudus",
-        "homeGoals": 2,
+        "homeGoals": 4,
         "awayGoals": 0
       },
       {
         "id": 1637709,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "Liga 2",
         "country": "Indonesia",
         "home": "PSPS",
@@ -20196,13 +20191,13 @@
       {
         "id": 1637710,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "Liga 2",
         "country": "Indonesia",
         "home": "Tornado Pekanbaru",
         "away": "Persela Lamongan",
-        "homeGoals": 1,
-        "awayGoals": 0
+        "homeGoals": 2,
+        "awayGoals": 1
       },
       {
         "id": 1637994,
@@ -20262,40 +20257,40 @@
       {
         "id": 1646915,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "FA Cup",
         "country": "England",
         "home": "Stafford Rangers",
         "away": "Grimsby",
-        "homeGoals": 1,
+        "homeGoals": 2,
         "awayGoals": 0
       },
       {
         "id": 1647043,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "CAF Women's Champions League",
         "country": "World",
         "home": "Ampem Darkoa W",
         "away": "FAR Rabat W",
         "homeGoals": 0,
-        "awayGoals": 0
+        "awayGoals": 1
       },
       {
         "id": 1647044,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "CAF Women's Champions League",
         "country": "World",
         "home": "Kawempe Muslim W",
         "away": "USFAS Bamako W",
-        "homeGoals": 1,
+        "homeGoals": 2,
         "awayGoals": 0
       },
       {
         "id": 1648490,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "Superliga",
         "country": "Kosovo",
         "home": "Drenica Skënderaj",
@@ -20306,13 +20301,13 @@
       {
         "id": 1648491,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "Superliga",
         "country": "Kosovo",
         "home": "Vushtrria",
         "away": "Prishtina",
         "homeGoals": 0,
-        "awayGoals": 1
+        "awayGoals": 2
       },
       {
         "id": 1649049,
@@ -20350,7 +20345,7 @@
       {
         "id": 1649052,
         "date": "2026-11-08T15:30:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "Premier League",
         "country": "Kyrgyzstan",
         "home": "Talant",
@@ -20460,62 +20455,62 @@
       {
         "id": 1547654,
         "date": "2026-11-08T15:45:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "A Lyga",
         "country": "Lithuania",
         "home": "Banga",
         "away": "FK Zalgiris Vilnius",
-        "homeGoals": 0,
-        "awayGoals": 0
+        "homeGoals": 1,
+        "awayGoals": 1
       },
       {
         "id": 1547655,
         "date": "2026-11-08T15:45:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "A Lyga",
         "country": "Lithuania",
         "home": "Panevėžys",
         "away": "Šiauliai",
-        "homeGoals": 0,
-        "awayGoals": 0
+        "homeGoals": 1,
+        "awayGoals": 2
       },
       {
         "id": 1547657,
         "date": "2026-11-08T15:45:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "A Lyga",
         "country": "Lithuania",
         "home": "Suduva Marijampole",
         "away": "Džiugas Telšiai",
-        "homeGoals": 0,
+        "homeGoals": 2,
         "awayGoals": 1
       },
       {
         "id": 1547658,
         "date": "2026-11-08T15:45:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "A Lyga",
         "country": "Lithuania",
         "home": "TransINVEST Vilnius",
         "away": "Kauno Žalgiris",
-        "homeGoals": 0,
-        "awayGoals": 0
+        "homeGoals": 2,
+        "awayGoals": 1
       },
       {
         "id": 1560276,
         "date": "2026-11-08T15:45:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "NB I",
         "country": "Hungary",
         "home": "Nyiregyhaza",
         "away": "Gyori ETO FC",
-        "homeGoals": 0,
-        "awayGoals": 0
+        "homeGoals": 1,
+        "awayGoals": 1
       },
       {
         "id": 1633934,
         "date": "2026-11-08T15:45:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "V.League 1",
         "country": "Vietnam",
         "home": "Viettel",
@@ -20537,24 +20532,24 @@
       {
         "id": 1642066,
         "date": "2026-11-08T15:45:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "Premier League",
         "country": "Lebanon",
         "home": "Tadamon Sour",
         "away": "Al Ansar",
-        "homeGoals": 0,
-        "awayGoals": 1
+        "homeGoals": 2,
+        "awayGoals": 3
       },
       {
         "id": 1645655,
         "date": "2026-11-08T15:45:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "FA Cup",
         "country": "Malaysia",
         "home": "Johor Darul Takzim FC",
         "away": "DPMM FC Brunei",
-        "homeGoals": 0,
-        "awayGoals": 0
+        "homeGoals": 1,
+        "awayGoals": 1
       },
       {
         "id": 1634397,
@@ -20581,18 +20576,18 @@
       {
         "id": 1558672,
         "date": "2026-11-08T16:00:00+03:30",
-        "status": "1H",
+        "status": "HT",
         "league": "Jupiler Pro League",
         "country": "Belgium",
         "home": "Club Brugge KV",
         "away": "Anderlecht",
-        "homeGoals": 0,
+        "homeGoals": 1,
         "awayGoals": 0
       },
       {
         "id": 1571617,
         "date": "2026-11-08T16:00:00+03:30",
-        "status": "1H",
+        "status": "2H",
         "league": "Second League",
         "country": "Bulgaria",
         "home": "Spartak Pleven",
@@ -20603,18 +20598,18 @@
       {
         "id": 1571618,
         "date": "2026-11-08T16:00:00+03:30",
-        "status": "1H",
+        "status": "HT",
         "league": "Second League",
         "country": "Bulgaria",
         "home": "Vihren",
         "away": "Lokomotiv G. Oryahovitsa",
-        "homeGoals": 0,
+        "homeGoals": 1,
         "awayGoals": 0
       },
       {
         "id": 1576224,
         "date": "2026-11-08T16:00:00+03:30",
-        "status": "1H",
+        "status": "HT",
         "league": "2. Bundesliga",
         "country": "Germany",
         "home": "VfL Bochum",
@@ -20625,23 +20620,23 @@
       {
         "id": 1576226,
         "date": "2026-11-08T16:00:00+03:30",
-        "status": "1H",
+        "status": "HT",
         "league": "2. Bundesliga",
         "country": "Germany",
         "home": "1. FC Heidenheim",
         "away": "Hannover 96",
-        "homeGoals": 0,
+        "homeGoals": 1,
         "awayGoals": 0
       },
       {
         "id": 1576229,
         "date": "2026-11-08T16:00:00+03:30",
-        "status": "1H",
+        "status": "HT",
         "league": "2. Bundesliga",
         "country": "Germany",
         "home": "1. FC Magdeburg",
         "away": "FC St. Pauli",
-        "homeGoals": 0,
+        "homeGoals": 1,
         "awayGoals": 0
       },
       {
@@ -20746,7 +20741,7 @@
       {
         "id": 1584067,
         "date": "2026-11-08T16:00:00+03:30",
-        "status": "1H",
+        "status": "HT",
         "league": "3. Liga",
         "country": "Germany",
         "home": "SV Meppen",
@@ -20757,7 +20752,7 @@
       {
         "id": 1591372,
         "date": "2026-11-08T16:00:00+03:30",
-        "status": "1H",
+        "status": "HT",
         "league": "2. Lig",
         "country": "Turkey",
         "home": "Elazığspor",
@@ -20768,35 +20763,35 @@
       {
         "id": 1591375,
         "date": "2026-11-08T16:00:00+03:30",
-        "status": "1H",
+        "status": "HT",
         "league": "2. Lig",
         "country": "Turkey",
         "home": "Isparta 32 Spor",
         "away": "Erbaaspor",
         "homeGoals": 0,
-        "awayGoals": 0
+        "awayGoals": 1
       },
       {
         "id": 1591666,
         "date": "2026-11-08T16:00:00+03:30",
-        "status": "1H",
+        "status": "HT",
         "league": "2. Lig",
         "country": "Turkey",
         "home": "Yeni Orduspor",
         "away": "Sakaryaspor",
         "homeGoals": 0,
-        "awayGoals": 0
+        "awayGoals": 1
       },
       {
         "id": 1604059,
         "date": "2026-11-08T16:00:00+03:30",
-        "status": "1H",
+        "status": "HT",
         "league": "Division 1",
         "country": "Saudi-Arabia",
         "home": "Damac",
         "away": "Al Anwar",
-        "homeGoals": 0,
-        "awayGoals": 0
+        "homeGoals": 1,
+        "awayGoals": 1
       },
       {
         "id": 1604299,
@@ -20823,7 +20818,7 @@
       {
         "id": 1609549,
         "date": "2026-11-08T16:00:00+03:30",
-        "status": "1H",
+        "status": "HT",
         "league": "2. Division",
         "country": "Cyprus",
         "home": "Iraklis Yerolakkou",
@@ -20834,7 +20829,7 @@
       {
         "id": 1609614,
         "date": "2026-11-08T16:00:00+03:30",
-        "status": "1H",
+        "status": "HT",
         "league": "2. Division",
         "country": "Cyprus",
         "home": "APEA",
@@ -20878,18 +20873,18 @@
       {
         "id": 1621385,
         "date": "2026-11-08T16:00:00+03:30",
-        "status": "1H",
+        "status": "HT",
         "league": "Liga Alef",
         "country": "Israel",
         "home": "Hapoel Ironi Arraba",
         "away": "Hapoel Umm al-Fahm",
-        "homeGoals": 0,
-        "awayGoals": 1
+        "homeGoals": 1,
+        "awayGoals": 5
       },
       {
         "id": 1628383,
         "date": "2026-11-08T16:00:00+03:30",
-        "status": "1H",
+        "status": "HT",
         "league": "1st Division",
         "country": "Albania",
         "home": "Korabi Peshkopi",
@@ -20922,13 +20917,13 @@
       {
         "id": 1639109,
         "date": "2026-11-08T16:00:00+03:30",
-        "status": "1H",
+        "status": "HT",
         "league": "PFL",
         "country": "Philippines",
         "home": "Maharlika",
         "away": "Manila Digger",
         "homeGoals": 0,
-        "awayGoals": 0
+        "awayGoals": 2
       },
       {
         "id": 1642640,
@@ -20944,7 +20939,7 @@
       {
         "id": 1648301,
         "date": "2026-11-08T16:00:00+03:30",
-        "status": "1H",
+        "status": "HT",
         "league": "Cup",
         "country": "Egypt",
         "home": "Petrojet",
@@ -20988,68 +20983,68 @@
       {
         "id": 1636973,
         "date": "2026-11-08T16:15:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "Super League 2",
         "country": "Greece",
         "home": "Kallithea",
         "away": "Panionios",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 1,
+        "awayGoals": 0
       },
       {
         "id": 1639688,
         "date": "2026-11-08T16:15:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "Persian Gulf Pro League",
         "country": "Iran",
         "home": "Gol Gohar",
         "away": "ZOB Ahan",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 0
       },
       {
         "id": 1644282,
         "date": "2026-11-08T16:15:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "Division 1",
         "country": "United-Arab-Emirates",
         "home": "Al Bataeh",
         "away": "Al Fujairah SC",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 0
       },
       {
         "id": 1644283,
         "date": "2026-11-08T16:15:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "Division 1",
         "country": "United-Arab-Emirates",
         "home": "Al Urooba",
         "away": "Palm City",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 1,
+        "awayGoals": 0
       },
       {
         "id": 1643058,
         "date": "2026-11-08T16:25:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "Pro League",
         "country": "United-Arab-Emirates",
         "home": "Al-Jazira",
         "away": "Al-Wasl FC",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 1,
+        "awayGoals": 0
       },
       {
         "id": 1643059,
         "date": "2026-11-08T16:25:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "Pro League",
         "country": "United-Arab-Emirates",
         "home": "Al Nasr",
         "away": "Dubai United",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 1
       },
       {
         "id": 1643124,
@@ -21087,134 +21082,134 @@
       {
         "id": 1494332,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "Allsvenskan",
         "country": "Sweden",
         "home": "IFK Goteborg",
         "away": "Malmo FF",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 0
       },
       {
         "id": 1494333,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "Allsvenskan",
         "country": "Sweden",
         "home": "Halmstad",
         "away": "Djurgardens IF",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 1,
+        "awayGoals": 0
       },
       {
         "id": 1503719,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "Elitettan",
         "country": "Sweden",
         "home": "Sandviken W",
         "away": "Enskede W",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 0
       },
       {
         "id": 1549052,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "Superliga",
         "country": "Denmark",
         "home": "Aarhus",
         "away": "AC Horsens",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 0
       },
       {
         "id": 1554217,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "Prva Liga",
         "country": "Serbia",
         "home": "FK Vozdovac",
         "away": "Borac Cacak",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 0
       },
       {
         "id": 1555422,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "Super League",
         "country": "Switzerland",
         "home": "FC ST. Gallen",
         "away": "FC Lugano",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 0
       },
       {
         "id": 1558560,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "First League",
         "country": "Montenegro",
         "home": "Sutjeska",
         "away": "Petrovac",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 1
       },
       {
         "id": 1558991,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "2. SNL",
         "country": "Slovenia",
         "home": "Beltinci",
         "away": "Dravinja",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 1,
+        "awayGoals": 0
       },
       {
         "id": 1558996,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "2. SNL",
         "country": "Slovenia",
         "home": "Jesenice",
         "away": "Slovan Ljubljana",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 0
       },
       {
         "id": 1562334,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "4. liga - Divizie A",
         "country": "Czech-Republic",
         "home": "Strakonice",
         "away": "Táborsko II",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 0
       },
       {
         "id": 1562557,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "4. liga - Divizie C",
         "country": "Czech-Republic",
         "home": "Dvůr Králové",
         "away": "Chrudim II",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 0
       },
       {
         "id": 1562559,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "4. liga - Divizie C",
         "country": "Czech-Republic",
         "home": "Kolín",
         "away": "Slavia Hradec Králové",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 0
       },
       {
         "id": 1562561,
@@ -21230,46 +21225,46 @@
       {
         "id": 1562696,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "3. liga - CFL A",
         "country": "Czech-Republic",
         "home": "Povltava FA",
         "away": "Viktoria Plzeň II",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 2
       },
       {
         "id": 1562816,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "3. liga - CFL B",
         "country": "Czech-Republic",
         "home": "Varnsdorf",
         "away": "Teplice II",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 2,
+        "awayGoals": 0
       },
       {
         "id": 1562818,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "3. liga - CFL B",
         "country": "Czech-Republic",
         "home": "Sokol Zápy",
         "away": "Chrudim",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 1,
+        "awayGoals": 0
       },
       {
         "id": 1565148,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "1. Liga U19",
         "country": "Czech-Republic",
         "home": "Hradec Králové U19",
         "away": "Opava U19",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 1,
+        "awayGoals": 0
       },
       {
         "id": 1566413,
@@ -21296,13 +21291,13 @@
       {
         "id": 1570445,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "La Liga",
         "country": "Spain",
         "home": "Elche",
         "away": "Real Betis",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 0
       },
       {
         "id": 1573900,
@@ -21318,57 +21313,57 @@
       {
         "id": 1573905,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "Regionalliga - West",
         "country": "Austria",
         "home": "Röthis",
         "away": "Imst",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 0
       },
       {
         "id": 1574415,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "1. Liga Promotion",
         "country": "Switzerland",
         "home": "Young Boys II",
         "away": "Bellinzona",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 1,
+        "awayGoals": 0
       },
       {
         "id": 1575841,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "2. Division",
         "country": "Denmark",
         "home": "Nykobing FC",
         "away": "Brabrand",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 0
       },
       {
         "id": 1577577,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "First League",
         "country": "Russia",
         "home": "Rotor Volgograd",
         "away": "Leningradets",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 1
       },
       {
         "id": 1579173,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "4. liga - Divizie D",
         "country": "Czech-Republic",
         "home": "Bystrc Kníničky",
         "away": "Sparta Brno",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 0
       },
       {
         "id": 1579175,
@@ -21395,57 +21390,57 @@
       {
         "id": 1579295,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "4. liga - Divizie E",
         "country": "Czech-Republic",
         "home": "Kozlovice",
         "away": "Slavičín",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 0
       },
       {
         "id": 1579297,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "4. liga - Divizie E",
         "country": "Czech-Republic",
         "home": "Sokol Lanžhot",
         "away": "Nové Sady",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 0
       },
       {
         "id": 1579410,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "4. liga - Divizie F",
         "country": "Czech-Republic",
         "home": "Bílovec",
         "away": "Stonava",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 0
       },
       {
         "id": 1579411,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "4. liga - Divizie F",
         "country": "Czech-Republic",
         "home": "Bospor Bohumín",
         "away": "Opava II",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 0
       },
       {
         "id": 1579413,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "4. liga - Divizie F",
         "country": "Czech-Republic",
         "home": "Kravare",
         "away": "Jiskra Rýmařov",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 0
       },
       {
         "id": 1579416,
@@ -21516,134 +21511,134 @@
       {
         "id": 1584459,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "Süper Lig",
         "country": "Turkey",
         "home": "Çorum FK",
         "away": "Fenerbahçe",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 2
       },
       {
         "id": 1585821,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "1. Lig",
         "country": "Turkey",
         "home": "Boluspor",
         "away": "Bodrum FK",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 1
       },
       {
         "id": 1585827,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "1. Lig",
         "country": "Turkey",
         "home": "Ümraniyespor",
         "away": "Kayserispor",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 0
       },
       {
         "id": 1586297,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "Regionalliga - Bayern",
         "country": "Germany",
         "home": "Nürnberg II",
         "away": "Eichstätt",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 1
       },
       {
         "id": 1586630,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "Regionalliga - Nord",
         "country": "Germany",
         "home": "HSC Hannover",
         "away": "SSV Jeddeloh",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 0
       },
       {
         "id": 1586631,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "Regionalliga - Nord",
         "country": "Germany",
         "home": "Eintracht Norderstedt",
         "away": "SV Drochtersen/Assel",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 0
       },
       {
         "id": 1586632,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "Regionalliga - Nord",
         "country": "Germany",
         "home": "Phönix Lübeck",
         "away": "Hamburger SV II",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 1,
+        "awayGoals": 1
       },
       {
         "id": 1586928,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "Regionalliga - Nordost",
         "country": "Germany",
         "home": "Hertha BSC II",
         "away": "Magdeburg II",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 2,
+        "awayGoals": 1
       },
       {
         "id": 1586930,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "Regionalliga - Nordost",
         "country": "Germany",
         "home": "RSV Eintracht",
         "away": "Erzgebirge Aue",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 0
       },
       {
         "id": 1586931,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "Regionalliga - Nordost",
         "country": "Germany",
         "home": "FSV Zwickau",
         "away": "Lokomotive Leipzig",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 0
       },
       {
         "id": 1587535,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "Regionalliga - West",
         "country": "Germany",
         "home": "Bochum II",
         "away": "SG Wattenscheid 09",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 0
       },
       {
         "id": 1587538,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "Regionalliga - West",
         "country": "Germany",
         "home": "Köln II",
         "away": "Sportfreunde Siegen",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 0
       },
       {
         "id": 1589021,
@@ -21747,13 +21742,13 @@
       {
         "id": 1593169,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "Frauen Bundesliga",
         "country": "Germany",
         "home": "Union Berlin W",
         "away": "1899 Hoffenheim W",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 1
       },
       {
         "id": 1595796,
@@ -21791,13 +21786,13 @@
       {
         "id": 1599529,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "National 2 - Group A",
         "country": "France",
         "home": "St-Pryvé St-Hilaire",
         "away": "Furiani-Agliani",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 0
       },
       {
         "id": 1604298,
@@ -21824,57 +21819,57 @@
       {
         "id": 1607042,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "2. Frauen Bundesliga",
         "country": "Germany",
         "home": "Andernach W",
         "away": "Turbine Potsdam W",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 0
       },
       {
         "id": 1607043,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "2. Frauen Bundesliga",
         "country": "Germany",
         "home": "Bochum W",
         "away": "Carl Zeiss Jena  W",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 0
       },
       {
         "id": 1607044,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "2. Frauen Bundesliga",
         "country": "Germany",
         "home": "Hoffenheim II W",
         "away": "Eintracht Frankfurt II W",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 0
       },
       {
         "id": 1607045,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "2. Frauen Bundesliga",
         "country": "Germany",
         "home": "SC Sand W",
         "away": "SGS Essen W",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 0
       },
       {
         "id": 1607046,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "2. Frauen Bundesliga",
         "country": "Germany",
         "home": "Viktoria Berlin W",
         "away": "Hertha Berlin W",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 0
       },
       {
         "id": 1608121,
@@ -21890,35 +21885,35 @@
       {
         "id": 1611444,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "Ligue 1",
         "country": "Algeria",
         "home": "US Biskra",
         "away": "ASO Chlef",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 0
       },
       {
         "id": 1611445,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "Ligue 1",
         "country": "Algeria",
         "home": "JS El Biar",
         "away": "MC Alger",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 1,
+        "awayGoals": 0
       },
       {
         "id": 1611447,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "Ligue 1",
         "country": "Algeria",
         "home": "Khenchela",
         "away": "Témouchent",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 0
       },
       {
         "id": 1618449,
@@ -22253,112 +22248,112 @@
       {
         "id": 1621085,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "Premier League 2 Division One",
         "country": "England",
         "home": "Burnley U21",
         "away": "Manchester United U21",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 1
       },
       {
         "id": 1621086,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "Premier League 2 Division One",
         "country": "England",
         "home": "Tottenham Hotspur U21",
         "away": "Chelsea U21",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 1
       },
       {
         "id": 1623162,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "1a Divisió",
         "country": "Andorra",
         "home": "FC Santa Coloma",
         "away": "Ordino",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 1,
+        "awayGoals": 0
       },
       {
         "id": 1626574,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "Serie D - Girone G",
         "country": "Italy",
         "home": "Sarrabus Ogliastra",
         "away": "Paganese",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 0
       },
       {
         "id": 1629042,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "CAF Super Cup",
         "country": "World",
         "home": "Mamelodi Sundowns",
         "away": "USM Alger",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 1,
+        "awayGoals": 1
       },
       {
         "id": 1629733,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "Challenge League",
         "country": "Malta",
         "home": "Sirens",
         "away": "Vittoriosa Stars",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 1,
+        "awayGoals": 1
       },
       {
         "id": 1630589,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "Super League",
         "country": "Zambia",
         "home": "NAPSA Stars",
         "away": "Nkana",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 0
       },
       {
         "id": 1632491,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "National Soccer League",
         "country": "Rwanda",
         "home": "Al Merreikh",
         "away": "Etoile de l'Est",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 1,
+        "awayGoals": 0
       },
       {
         "id": 1636974,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "Super League 2",
         "country": "Greece",
         "home": "Nestos Chrisoupolis",
         "away": "Asteras Tripolis II",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 0
       },
       {
         "id": 1636976,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "Super League 2",
         "country": "Greece",
         "home": "Anagennisi Karditsas",
         "away": "Marko",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 0
       },
       {
         "id": 1636979,
@@ -22385,13 +22380,13 @@
       {
         "id": 1637462,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "B-Liga Women",
         "country": "Denmark",
         "home": "Osterbro W",
         "away": "Naestved W",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 0
       },
       {
         "id": 1637989,
@@ -22418,35 +22413,35 @@
       {
         "id": 1638119,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "Veikkausliiga",
         "country": "Finland",
         "home": "Gnistan",
         "away": "VPS",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 1,
+        "awayGoals": 1
       },
       {
         "id": 1638120,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "Veikkausliiga",
         "country": "Finland",
         "home": "HJK Helsinki",
         "away": "AC Oulu",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 2
       },
       {
         "id": 1638121,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "Veikkausliiga",
         "country": "Finland",
         "home": "KuPS",
         "away": "Inter Turku",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 1
       },
       {
         "id": 1642378,
@@ -22660,57 +22655,57 @@
       {
         "id": 1646375,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "Premier Soccer League",
         "country": "Zimbabwe",
         "home": "Dynamos",
         "away": "Manica Diamonds",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 0
       },
       {
         "id": 1646383,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "Premier Soccer League",
         "country": "Zimbabwe",
         "home": "Highlanders",
         "away": "TelOne",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 1
       },
       {
         "id": 1646957,
         "date": "2026-11-08T16:30:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "Mineiro - 3",
         "country": "Brazil",
         "home": "Venda Nova",
         "away": "Novo Esporte Clube",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 1
       },
       {
         "id": 1516181,
         "date": "2026-11-08T16:45:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "Super League",
         "country": "Uzbekistan",
         "home": "Pakhtakor",
         "away": "Kokand-1912",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 2,
+        "awayGoals": 0
       },
       {
         "id": 1561441,
         "date": "2026-11-08T16:45:00+03:30",
-        "status": "NS",
+        "status": "1H",
         "league": "Premier League",
         "country": "Russia",
         "home": "Spartak Moscow",
         "away": "Akron",
-        "homeGoals": null,
-        "awayGoals": null
+        "homeGoals": 0,
+        "awayGoals": 0
       },
       {
         "id": 1629107,
@@ -29385,7 +29380,15 @@
     ],
     "source": "API-Football",
     "sourceUrl": "https://www.api-football.com/",
-    "fetchedAt": "2026-11-08T12:39:25.778424+00:00",
+    "fetchedAt": "2026-11-08T13:29:53.480680+00:00",
+    "error": null
+  },
+  "gold18": {
+    "value": 25398900.0,
+    "unit": "toman/gram",
+    "source": "شبکه اطلاع‌رسانی طلا، سکه و ارز (TGJU)",
+    "sourceUrl": "https://www.tgju.org/profile/geram18",
+    "fetchedAt": "2026-11-08T13:29:52.451756+00:00",
     "error": null
   }
 }
