@@ -1,0 +1,8 @@
+{
+  "lastAttempt": null,
+  "usdt": {"error": "پس از اولین اجرای GitHub Actions دریافت می‌شود."},
+  "btc": {"error": "پس از اولین اجرای GitHub Actions دریافت می‌شود."},
+  "xau": {"error": "پس از اولین اجرای GitHub Actions دریافت می‌شود."},
+  "gold18": {"error": "پس از دریافت اونس، محاسبه می‌شود."},
+  "football": {"matches": [], "error": "کلید رایگان FOOTBALL_API_KEY را طبق راهنما تنظیم کنید."}
+}
