@@ -1,8 +1,36 @@
 {
-  "lastAttempt": null,
-  "usdt": {"error": "پس از اولین اجرای GitHub Actions دریافت می‌شود."},
-  "btc": {"error": "پس از اولین اجرای GitHub Actions دریافت می‌شود."},
-  "xau": {"error": "پس از اولین اجرای GitHub Actions دریافت می‌شود."},
-  "gold18": {"error": "پس از دریافت اونس، محاسبه می‌شود."},
-  "football": {"matches": [], "error": "کلید رایگان FOOTBALL_API_KEY را طبق راهنما تنظیم کنید."}
+  "lastAttempt": "2026-11-08T12:15:09.022293+00:00",
+  "usdt": {
+    "error": "دریافت نرخ تتر ناموفق بود؛ ممکن است منبع از محل اجرای گیت‌هاب در دسترس نباشد.",
+    "lastAttempt": "2026-11-08T12:15:09.470265+00:00"
+  },
+  "btc": {
+    "value": 75853.632812,
+    "source": "Gold API",
+    "sourceUrl": "https://gold-api.com/",
+    "sourceTime": "2026-11-08T12:14:53Z",
+    "fetchedAt": "2026-11-08T12:15:09.715112+00:00",
+    "error": null
+  },
+  "xau": {
+    "value": 4072.100098,
+    "source": "Gold API",
+    "sourceUrl": "https://gold-api.com/",
+    "sourceTime": "2026-11-08T12:14:52Z",
+    "fetchedAt": "2026-11-08T12:15:09.928519+00:00",
+    "error": null
+  },
+  "gold18": {
+    "value": 98.19079368966237,
+    "source": "محاسبه از اونس جهانی؛ Gold API",
+    "sourceUrl": "https://gold-api.com/",
+    "sourceTime": "2026-11-08T12:14:52Z",
+    "fetchedAt": "2026-11-08T12:15:09.928519+00:00",
+    "error": null
+  },
+  "football": {
+    "matches": [],
+    "error": "کلید رایگان FOOTBALL_API_KEY هنوز در GitHub Secrets تنظیم نشده است.",
+    "lastAttempt": "2026-11-08T12:15:09.928572+00:00"
+  }
 }
