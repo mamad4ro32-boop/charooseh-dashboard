@@ -1,10 +1,10 @@
 {
-  "lastAttempt": "2026-11-19T01:27:16.420411+00:00",
+  "lastAttempt": "2026-11-19T09:20:21.828231+00:00",
   "usdt": {
-    "value": 270204.0,
+    "value": 270720.0,
     "source": "نوبیتکس؛ آخرین معامله",
     "sourceUrl": "https://nobitex.ir/",
-    "fetchedAt": "2026-11-19T01:27:17.334714+00:00",
+    "fetchedAt": "2026-11-19T09:20:23.180621+00:00",
     "error": null
   },
   "btc": {
@@ -13,7 +13,8 @@
     "sourceUrl": "https://gold-api.com/",
     "sourceTime": "2026-11-19T01:27:02Z",
     "fetchedAt": "2026-11-19T01:27:17.682687+00:00",
-    "error": null
+    "error": "دریافت قیمت بیت‌کوین ناموفق بود.",
+    "lastAttempt": "2026-11-19T09:20:23.290966+00:00"
   },
   "xau": {
     "value": 3749.949951,
@@ -21,7 +22,8 @@
     "sourceUrl": "https://gold-api.com/",
     "sourceTime": "2026-11-19T01:27:02Z",
     "fetchedAt": "2026-11-19T01:27:18.008683+00:00",
-    "error": null
+    "error": "دریافت قیمت اونس ناموفق بود.",
+    "lastAttempt": "2026-11-19T09:20:23.342745+00:00"
   },
   "football": {
     "matches": [
@@ -29382,14 +29384,14 @@
     "sourceUrl": "https://www.api-football.com/",
     "fetchedAt": "2026-11-08T16:50:20.502584+00:00",
     "error": "دریافت فوتبال ناموفق بود؛ دسترسی فصل جاری در پلن رایگان، سهمیه و اتصال را بررسی کنید.",
-    "lastAttempt": "2026-11-19T01:27:19.376116+00:00"
+    "lastAttempt": "2026-11-19T09:20:25.435510+00:00"
   },
   "gold18": {
-    "value": 24459600.0,
+    "value": 24328000.0,
     "unit": "toman/gram",
     "source": "شبکه اطلاع‌رسانی طلا، سکه و ارز (TGJU)",
     "sourceUrl": "https://www.tgju.org/profile/geram18",
-    "fetchedAt": "2026-11-19T01:27:19.191782+00:00",
+    "fetchedAt": "2026-11-19T09:20:25.190674+00:00",
     "error": null
   }
 }
